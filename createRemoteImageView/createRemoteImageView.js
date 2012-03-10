@@ -69,7 +69,6 @@ if ( !Ti.App.hasRemoteImageViewListener ) {
 				
 					// assign the image
 					Ti.App.fireEvent(eventId, {filename: cacheFile.nativePath});
-					remoteImage.image = cacheFile.nativePath;;
 				}
 				catch (e) {
 					// handle error case
