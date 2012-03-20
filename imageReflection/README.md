@@ -1,4 +1,4 @@
-    Ti.include('imageMirror.js');
+    Ti.include('imageReflection.js');
     
 	var image = Titanium.UI.createImageView({
 		image: 'http://25.media.tumblr.com/tumblr_m0tl9niWM81rrub3eo1_500.png',
@@ -10,5 +10,5 @@
 	});
 	Titanium.UI.currentWindow.add(image);
 	
-	var mirror = imageMirror(image, '#FFFFFF');
-	Titanium.UI.currentWindow.add(mirror);
+	var reflection = imageReflection(image, '#FFFFFF');
+	Titanium.UI.currentWindow.add(reflection);
